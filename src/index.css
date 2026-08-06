@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap');
+
+:root {
+  --white: #FFFFFF;
+  --bg: #F8F7F4;
+  --bg2: #F0EDE8;
+  --border: #E8E4DC;
+  --border-lt: #F0EBE4;
+  --ink: #1A1A18;
+  --ink-md: #4A4A44;
+  --ink-lt: #8A8880;
+  --rose: #4AB8A8;
+  --rose-lt: #7DD3C8;
+  --rose-pale: #E8F4F2;
+  --gold: #2A7B6F;
+  --gold-lt: #4A9B8E;
+  --gold-pale: #E8F4F2;
+  --header-bg: #1A1A18;
+  --accent: #4AB8A8;
+}
+
+.dark-mode {
+  --white: #1E1E1C;
+  --bg: #161614;
+  --bg2: #1A1A18;
+  --border: #2E2E2A;
+  --border-lt: #262620;
+  --ink: #F0EFEC;
+  --ink-md: #C8C6C0;
+  --ink-lt: #888680;
+  --rose: #4AB8A8;
+  --rose-pale: #0E2420;
+  --gold: #7DD3C8;
+  --gold-pale: #0E2420;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html { font-size: 16px; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  font-weight: 300;
+  overscroll-behavior: none;
+  transition: background 0.2s, color 0.2s;
+}
+button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
+input, select, textarea { font-family: 'DM Sans', sans-serif; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
